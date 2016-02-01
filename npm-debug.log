@@ -1,0 +1,513 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/tlong/.nvm/versions/node/v0.12.0/bin/node',
+1 verbose cli   '/Users/tlong/.nvm/versions/node/v0.12.0/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@2.5.1
+3 info using node@v0.12.0
+4 verbose install where, deps [ '/Users/tlong/source/phoenix_example/example_app',
+4 verbose install   [ 'babel-brunch',
+4 verbose install     'brunch',
+4 verbose install     'clean-css-brunch',
+4 verbose install     'css-brunch',
+4 verbose install     'javascript-brunch',
+4 verbose install     'uglify-js-brunch',
+4 verbose install     'phoenix',
+4 verbose install     'phoenix_html' ] ]
+5 verbose install where, peers [ '/Users/tlong/source/phoenix_example/example_app', [] ]
+6 info preinstall @
+7 silly cache add args [ 'clean-css-brunch@~1.8.0', null ]
+8 verbose cache add spec clean-css-brunch@~1.8.0
+9 silly cache add parsed spec { raw: 'clean-css-brunch@~1.8.0',
+9 silly cache add   scope: null,
+9 silly cache add   name: 'clean-css-brunch',
+9 silly cache add   rawSpec: '~1.8.0',
+9 silly cache add   spec: '>=1.8.0 <1.9.0',
+9 silly cache add   type: 'range' }
+10 verbose addNamed clean-css-brunch@>=1.8.0 <1.9.0
+11 silly addNamed semver.valid null
+12 silly addNamed semver.validRange >=1.8.0 <1.9.0
+13 silly addNameRange { name: 'clean-css-brunch',
+13 silly addNameRange   range: '>=1.8.0 <1.9.0',
+13 silly addNameRange   hasData: false }
+14 silly mapToRegistry name clean-css-brunch
+15 silly mapToRegistry using default registry
+16 silly mapToRegistry registry https://registry.npmjs.org/
+17 silly mapToRegistry uri https://registry.npmjs.org/clean-css-brunch
+18 verbose addNameRange registry:https://registry.npmjs.org/clean-css-brunch not in flight; fetching
+19 silly cache add args [ 'css-brunch@~1.7.0', null ]
+20 verbose cache add spec css-brunch@~1.7.0
+21 silly cache add parsed spec { raw: 'css-brunch@~1.7.0',
+21 silly cache add   scope: null,
+21 silly cache add   name: 'css-brunch',
+21 silly cache add   rawSpec: '~1.7.0',
+21 silly cache add   spec: '>=1.7.0 <1.8.0',
+21 silly cache add   type: 'range' }
+22 verbose addNamed css-brunch@>=1.7.0 <1.8.0
+23 silly addNamed semver.valid null
+24 silly addNamed semver.validRange >=1.7.0 <1.8.0
+25 silly addNameRange { name: 'css-brunch', range: '>=1.7.0 <1.8.0', hasData: false }
+26 silly mapToRegistry name css-brunch
+27 silly mapToRegistry using default registry
+28 silly mapToRegistry registry https://registry.npmjs.org/
+29 silly mapToRegistry uri https://registry.npmjs.org/css-brunch
+30 verbose addNameRange registry:https://registry.npmjs.org/css-brunch not in flight; fetching
+31 silly cache add args [ 'javascript-brunch@~1.8.0', null ]
+32 verbose cache add spec javascript-brunch@~1.8.0
+33 silly cache add parsed spec { raw: 'javascript-brunch@~1.8.0',
+33 silly cache add   scope: null,
+33 silly cache add   name: 'javascript-brunch',
+33 silly cache add   rawSpec: '~1.8.0',
+33 silly cache add   spec: '>=1.8.0 <1.9.0',
+33 silly cache add   type: 'range' }
+34 verbose addNamed javascript-brunch@>=1.8.0 <1.9.0
+35 silly addNamed semver.valid null
+36 silly addNamed semver.validRange >=1.8.0 <1.9.0
+37 silly addNameRange { name: 'javascript-brunch',
+37 silly addNameRange   range: '>=1.8.0 <1.9.0',
+37 silly addNameRange   hasData: false }
+38 silly mapToRegistry name javascript-brunch
+39 silly mapToRegistry using default registry
+40 silly mapToRegistry registry https://registry.npmjs.org/
+41 silly mapToRegistry uri https://registry.npmjs.org/javascript-brunch
+42 verbose addNameRange registry:https://registry.npmjs.org/javascript-brunch not in flight; fetching
+43 silly cache add args [ 'uglify-js-brunch@~1.7.0', null ]
+44 verbose cache add spec uglify-js-brunch@~1.7.0
+45 silly cache add parsed spec { raw: 'uglify-js-brunch@~1.7.0',
+45 silly cache add   scope: null,
+45 silly cache add   name: 'uglify-js-brunch',
+45 silly cache add   rawSpec: '~1.7.0',
+45 silly cache add   spec: '>=1.7.0 <1.8.0',
+45 silly cache add   type: 'range' }
+46 verbose addNamed uglify-js-brunch@>=1.7.0 <1.8.0
+47 silly addNamed semver.valid null
+48 silly addNamed semver.validRange >=1.7.0 <1.8.0
+49 silly addNameRange { name: 'uglify-js-brunch',
+49 silly addNameRange   range: '>=1.7.0 <1.8.0',
+49 silly addNameRange   hasData: false }
+50 silly mapToRegistry name uglify-js-brunch
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry https://registry.npmjs.org/
+53 silly mapToRegistry uri https://registry.npmjs.org/uglify-js-brunch
+54 verbose addNameRange registry:https://registry.npmjs.org/uglify-js-brunch not in flight; fetching
+55 silly cache add args [ 'phoenix@file:deps/phoenix', null ]
+56 verbose cache add spec phoenix@file:deps/phoenix
+57 silly cache add args [ 'phoenix_html@file:deps/phoenix_html', null ]
+58 verbose cache add spec phoenix_html@file:deps/phoenix_html
+59 silly cache add args [ 'babel-brunch@~6.0.0', null ]
+60 verbose cache add spec babel-brunch@~6.0.0
+61 silly cache add parsed spec { raw: 'babel-brunch@~6.0.0',
+61 silly cache add   scope: null,
+61 silly cache add   name: 'babel-brunch',
+61 silly cache add   rawSpec: '~6.0.0',
+61 silly cache add   spec: '>=6.0.0 <6.1.0',
+61 silly cache add   type: 'range' }
+62 verbose addNamed babel-brunch@>=6.0.0 <6.1.0
+63 silly addNamed semver.valid null
+64 silly addNamed semver.validRange >=6.0.0 <6.1.0
+65 silly addNameRange { name: 'babel-brunch', range: '>=6.0.0 <6.1.0', hasData: false }
+66 silly mapToRegistry name babel-brunch
+67 silly mapToRegistry using default registry
+68 silly mapToRegistry registry https://registry.npmjs.org/
+69 silly mapToRegistry uri https://registry.npmjs.org/babel-brunch
+70 verbose addNameRange registry:https://registry.npmjs.org/babel-brunch not in flight; fetching
+71 silly cache add args [ 'brunch@~2.1.3', null ]
+72 verbose cache add spec brunch@~2.1.3
+73 silly cache add parsed spec { raw: 'brunch@~2.1.3',
+73 silly cache add   scope: null,
+73 silly cache add   name: 'brunch',
+73 silly cache add   rawSpec: '~2.1.3',
+73 silly cache add   spec: '>=2.1.3 <2.2.0',
+73 silly cache add   type: 'range' }
+74 verbose addNamed brunch@>=2.1.3 <2.2.0
+75 silly addNamed semver.valid null
+76 silly addNamed semver.validRange >=2.1.3 <2.2.0
+77 silly addNameRange { name: 'brunch', range: '>=2.1.3 <2.2.0', hasData: false }
+78 silly mapToRegistry name brunch
+79 silly mapToRegistry using default registry
+80 silly mapToRegistry registry https://registry.npmjs.org/
+81 silly mapToRegistry uri https://registry.npmjs.org/brunch
+82 verbose addNameRange registry:https://registry.npmjs.org/brunch not in flight; fetching
+83 silly cache add parsed spec { raw: 'phoenix@file:deps/phoenix',
+83 silly cache add   scope: null,
+83 silly cache add   name: 'phoenix',
+83 silly cache add   rawSpec: 'file:deps/phoenix',
+83 silly cache add   spec: '/Users/tlong/source/phoenix_example/example_app/deps/phoenix',
+83 silly cache add   type: 'local' }
+84 silly cache add parsed spec { raw: 'phoenix_html@file:deps/phoenix_html',
+84 silly cache add   scope: null,
+84 silly cache add   name: 'phoenix_html',
+84 silly cache add   rawSpec: 'file:deps/phoenix_html',
+84 silly cache add   spec: '/Users/tlong/source/phoenix_example/example_app/deps/phoenix_html',
+84 silly cache add   type: 'local' }
+85 error addLocal Could not install /Users/tlong/source/phoenix_example/example_app/deps/phoenix
+86 error addLocal Could not install /Users/tlong/source/phoenix_example/example_app/deps/phoenix_html
+87 verbose request uri https://registry.npmjs.org/css-brunch
+88 verbose request no auth needed
+89 info attempt registry request try #1 at 9:53:37 AM
+90 verbose request id eb83ed6f23c5f2a0
+91 verbose etag "3MLMEF015LTF3ST910NBEPF6Z"
+92 http request GET https://registry.npmjs.org/css-brunch
+93 verbose request uri https://registry.npmjs.org/uglify-js-brunch
+94 verbose request no auth needed
+95 info attempt registry request try #1 at 9:53:37 AM
+96 verbose etag "13FU9J8Y5W216UTLU2ZRS4T4M"
+97 http request GET https://registry.npmjs.org/uglify-js-brunch
+98 verbose request uri https://registry.npmjs.org/clean-css-brunch
+99 verbose request no auth needed
+100 info attempt registry request try #1 at 9:53:37 AM
+101 verbose etag "5MPZPCMAI74IWZRADCMJFIHZW"
+102 http request GET https://registry.npmjs.org/clean-css-brunch
+103 verbose request uri https://registry.npmjs.org/babel-brunch
+104 verbose request no auth needed
+105 info attempt registry request try #1 at 9:53:37 AM
+106 verbose etag "6UDF2GRX43BIZTQ9772DRSL2T"
+107 http request GET https://registry.npmjs.org/babel-brunch
+108 verbose request uri https://registry.npmjs.org/brunch
+109 verbose request no auth needed
+110 info attempt registry request try #1 at 9:53:37 AM
+111 verbose etag "CCHT6WJI94VAE0UM3VBQFFORN"
+112 http request GET https://registry.npmjs.org/brunch
+113 verbose request uri https://registry.npmjs.org/javascript-brunch
+114 verbose request no auth needed
+115 info attempt registry request try #1 at 9:53:37 AM
+116 verbose etag "29I869TOMAOKBX6F9X34ADN83"
+117 http request GET https://registry.npmjs.org/javascript-brunch
+118 http 304 https://registry.npmjs.org/uglify-js-brunch
+119 silly get cb [ 304,
+119 silly get   { date: 'Mon, 01 Feb 2016 16:53:38 GMT',
+119 silly get     via: '1.1 varnish',
+119 silly get     'cache-control': 'max-age=300',
+119 silly get     etag: '"13FU9J8Y5W216UTLU2ZRS4T4M"',
+119 silly get     age: '54',
+119 silly get     connection: 'keep-alive',
+119 silly get     'x-served-by': 'cache-lax1429-LAX',
+119 silly get     'x-cache': 'HIT',
+119 silly get     'x-cache-hits': '25',
+119 silly get     'x-timer': 'S1454345618.578664,VS0,VE0',
+119 silly get     vary: 'Accept' } ]
+120 verbose etag https://registry.npmjs.org/uglify-js-brunch from cache
+121 verbose get saving uglify-js-brunch to /Users/tlong/.npm/registry.npmjs.org/uglify-js-brunch/.cache.json
+122 http 304 https://registry.npmjs.org/css-brunch
+123 silly get cb [ 304,
+123 silly get   { date: 'Mon, 01 Feb 2016 16:53:38 GMT',
+123 silly get     via: '1.1 varnish',
+123 silly get     'cache-control': 'max-age=300',
+123 silly get     etag: '"3MLMEF015LTF3ST910NBEPF6Z"',
+123 silly get     age: '64',
+123 silly get     connection: 'keep-alive',
+123 silly get     'x-served-by': 'cache-lax1429-LAX',
+123 silly get     'x-cache': 'HIT',
+123 silly get     'x-cache-hits': '1',
+123 silly get     'x-timer': 'S1454345618.579201,VS0,VE0',
+123 silly get     vary: 'Accept' } ]
+124 verbose etag https://registry.npmjs.org/css-brunch from cache
+125 verbose get saving css-brunch to /Users/tlong/.npm/registry.npmjs.org/css-brunch/.cache.json
+126 http 304 https://registry.npmjs.org/babel-brunch
+127 silly get cb [ 304,
+127 silly get   { date: 'Mon, 01 Feb 2016 16:53:38 GMT',
+127 silly get     via: '1.1 varnish',
+127 silly get     'cache-control': 'max-age=300',
+127 silly get     etag: '"6UDF2GRX43BIZTQ9772DRSL2T"',
+127 silly get     age: '119',
+127 silly get     connection: 'keep-alive',
+127 silly get     'x-served-by': 'cache-lax1430-LAX',
+127 silly get     'x-cache': 'HIT',
+127 silly get     'x-cache-hits': '1',
+127 silly get     'x-timer': 'S1454345618.579427,VS0,VE0',
+127 silly get     vary: 'Accept' } ]
+128 verbose etag https://registry.npmjs.org/babel-brunch from cache
+129 verbose get saving babel-brunch to /Users/tlong/.npm/registry.npmjs.org/babel-brunch/.cache.json
+130 http 304 https://registry.npmjs.org/clean-css-brunch
+131 silly get cb [ 304,
+131 silly get   { date: 'Mon, 01 Feb 2016 16:53:38 GMT',
+131 silly get     via: '1.1 varnish',
+131 silly get     'cache-control': 'max-age=300',
+131 silly get     etag: '"5MPZPCMAI74IWZRADCMJFIHZW"',
+131 silly get     age: '69',
+131 silly get     connection: 'keep-alive',
+131 silly get     'x-served-by': 'cache-lax1429-LAX',
+131 silly get     'x-cache': 'HIT',
+131 silly get     'x-cache-hits': '1',
+131 silly get     'x-timer': 'S1454345618.582197,VS0,VE0',
+131 silly get     vary: 'Accept' } ]
+132 verbose etag https://registry.npmjs.org/clean-css-brunch from cache
+133 verbose get saving clean-css-brunch to /Users/tlong/.npm/registry.npmjs.org/clean-css-brunch/.cache.json
+134 silly addNameRange number 2 { name: 'css-brunch', range: '>=1.7.0 <1.8.0', hasData: true }
+135 silly addNameRange versions [ 'css-brunch',
+135 silly addNameRange   [ '1.0.0',
+135 silly addNameRange     '1.1.0',
+135 silly addNameRange     '1.1.1',
+135 silly addNameRange     '1.3.0',
+135 silly addNameRange     '1.5.0',
+135 silly addNameRange     '1.5.1',
+135 silly addNameRange     '1.6.0',
+135 silly addNameRange     '1.7.0',
+135 silly addNameRange     '2.0.0' ] ]
+136 verbose addNamed css-brunch@1.7.0
+137 silly addNamed semver.valid 1.7.0
+138 silly addNamed semver.validRange 1.7.0
+139 silly addNameRange number 2 { name: 'clean-css-brunch',
+139 silly addNameRange   range: '>=1.8.0 <1.9.0',
+139 silly addNameRange   hasData: true }
+140 silly addNameRange versions [ 'clean-css-brunch',
+140 silly addNameRange   [ '1.0.0',
+140 silly addNameRange     '1.1.0',
+140 silly addNameRange     '1.1.1',
+140 silly addNameRange     '1.3.0',
+140 silly addNameRange     '1.4.0',
+140 silly addNameRange     '1.5.0',
+140 silly addNameRange     '1.5.1',
+140 silly addNameRange     '1.6.0',
+140 silly addNameRange     '1.7.0',
+140 silly addNameRange     '1.7.1',
+140 silly addNameRange     '1.7.2',
+140 silly addNameRange     '1.8.0',
+140 silly addNameRange     '2.0.0' ] ]
+141 verbose addNamed clean-css-brunch@1.8.0
+142 silly addNamed semver.valid 1.8.0
+143 silly addNamed semver.validRange 1.8.0
+144 silly addNameRange number 2 { name: 'uglify-js-brunch',
+144 silly addNameRange   range: '>=1.7.0 <1.8.0',
+144 silly addNameRange   hasData: true }
+145 silly addNameRange versions [ 'uglify-js-brunch',
+145 silly addNameRange   [ '1.0.0',
+145 silly addNameRange     '1.1.0',
+145 silly addNameRange     '1.1.1',
+145 silly addNameRange     '1.3.0',
+145 silly addNameRange     '1.3.1',
+145 silly addNameRange     '1.5.0',
+145 silly addNameRange     '1.5.1',
+145 silly addNameRange     '1.7.0',
+145 silly addNameRange     '1.7.1',
+145 silly addNameRange     '1.7.2',
+145 silly addNameRange     '1.7.3',
+145 silly addNameRange     '1.7.4',
+145 silly addNameRange     '1.7.5',
+145 silly addNameRange     '1.7.6',
+145 silly addNameRange     '1.7.7',
+145 silly addNameRange     '1.7.8',
+145 silly addNameRange     '2.0.0',
+145 silly addNameRange     '2.0.1' ] ]
+146 verbose addNamed uglify-js-brunch@1.7.8
+147 silly addNamed semver.valid 1.7.8
+148 silly addNamed semver.validRange 1.7.8
+149 silly addNameRange number 2 { name: 'babel-brunch', range: '>=6.0.0 <6.1.0', hasData: true }
+150 silly addNameRange versions [ 'babel-brunch',
+150 silly addNameRange   [ '4.0.0', '5.0.0', '5.0.1', '5.1.0', '5.1.1', '5.1.2', '6.0.0' ] ]
+151 verbose addNamed babel-brunch@6.0.0
+152 silly addNamed semver.valid 6.0.0
+153 silly addNamed semver.validRange 6.0.0
+154 http 304 https://registry.npmjs.org/javascript-brunch
+155 silly get cb [ 304,
+155 silly get   { date: 'Mon, 01 Feb 2016 16:53:38 GMT',
+155 silly get     via: '1.1 varnish',
+155 silly get     'cache-control': 'max-age=300',
+155 silly get     etag: '"29I869TOMAOKBX6F9X34ADN83"',
+155 silly get     age: '59',
+155 silly get     connection: 'keep-alive',
+155 silly get     'x-served-by': 'cache-lax1425-LAX',
+155 silly get     'x-cache': 'HIT',
+155 silly get     'x-cache-hits': '1',
+155 silly get     'x-timer': 'S1454345618.598683,VS0,VE0',
+155 silly get     vary: 'Accept' } ]
+156 verbose etag https://registry.npmjs.org/javascript-brunch from cache
+157 verbose get saving javascript-brunch to /Users/tlong/.npm/registry.npmjs.org/javascript-brunch/.cache.json
+158 silly cache afterAdd css-brunch@1.7.0
+159 verbose afterAdd /Users/tlong/.npm/css-brunch/1.7.0/package/package.json not in flight; writing
+160 silly cache afterAdd uglify-js-brunch@1.7.8
+161 verbose afterAdd /Users/tlong/.npm/uglify-js-brunch/1.7.8/package/package.json not in flight; writing
+162 silly cache afterAdd clean-css-brunch@1.8.0
+163 verbose afterAdd /Users/tlong/.npm/clean-css-brunch/1.8.0/package/package.json not in flight; writing
+164 silly cache afterAdd babel-brunch@6.0.0
+165 verbose afterAdd /Users/tlong/.npm/babel-brunch/6.0.0/package/package.json not in flight; writing
+166 http 304 https://registry.npmjs.org/brunch
+167 silly get cb [ 304,
+167 silly get   { date: 'Mon, 01 Feb 2016 16:53:38 GMT',
+167 silly get     via: '1.1 varnish',
+167 silly get     'cache-control': 'max-age=300',
+167 silly get     etag: '"CCHT6WJI94VAE0UM3VBQFFORN"',
+167 silly get     age: '129',
+167 silly get     connection: 'keep-alive',
+167 silly get     'x-served-by': 'cache-lax1427-LAX',
+167 silly get     'x-cache': 'HIT',
+167 silly get     'x-cache-hits': '1',
+167 silly get     'x-timer': 'S1454345618.600184,VS0,VE0',
+167 silly get     vary: 'Accept' } ]
+168 verbose etag https://registry.npmjs.org/brunch from cache
+169 verbose get saving brunch to /Users/tlong/.npm/registry.npmjs.org/brunch/.cache.json
+170 silly addNameRange number 2 { name: 'javascript-brunch',
+170 silly addNameRange   range: '>=1.8.0 <1.9.0',
+170 silly addNameRange   hasData: true }
+171 silly addNameRange versions [ 'javascript-brunch',
+171 silly addNameRange   [ '1.0.0',
+171 silly addNameRange     '1.1.0',
+171 silly addNameRange     '1.1.1',
+171 silly addNameRange     '1.3.0',
+171 silly addNameRange     '1.5.0',
+171 silly addNameRange     '1.5.1',
+171 silly addNameRange     '1.6.0',
+171 silly addNameRange     '1.7.0',
+171 silly addNameRange     '1.7.1',
+171 silly addNameRange     '1.8.0',
+171 silly addNameRange     '2.0.0' ] ]
+172 verbose addNamed javascript-brunch@1.8.0
+173 silly addNamed semver.valid 1.8.0
+174 silly addNamed semver.validRange 1.8.0
+175 verbose afterAdd /Users/tlong/.npm/uglify-js-brunch/1.7.8/package/package.json written
+176 verbose afterAdd /Users/tlong/.npm/css-brunch/1.7.0/package/package.json written
+177 verbose afterAdd /Users/tlong/.npm/clean-css-brunch/1.8.0/package/package.json written
+178 verbose afterAdd /Users/tlong/.npm/babel-brunch/6.0.0/package/package.json written
+179 silly addNameRange number 2 { name: 'brunch', range: '>=2.1.3 <2.2.0', hasData: true }
+180 silly addNameRange versions [ 'brunch',
+180 silly addNameRange   [ '0.0.1',
+180 silly addNameRange     '0.0.2',
+180 silly addNameRange     '0.0.3',
+180 silly addNameRange     '0.0.4',
+180 silly addNameRange     '0.0.5',
+180 silly addNameRange     '0.0.6',
+180 silly addNameRange     '0.0.7',
+180 silly addNameRange     '0.0.8',
+180 silly addNameRange     '0.1.0',
+180 silly addNameRange     '0.1.1',
+180 silly addNameRange     '0.1.3',
+180 silly addNameRange     '0.1.4',
+180 silly addNameRange     '0.1.5',
+180 silly addNameRange     '0.1.6',
+180 silly addNameRange     '0.1.7',
+180 silly addNameRange     '0.1.8',
+180 silly addNameRange     '0.1.9',
+180 silly addNameRange     '0.2.0',
+180 silly addNameRange     '0.2.1',
+180 silly addNameRange     '0.2.2',
+180 silly addNameRange     '0.2.3',
+180 silly addNameRange     '0.2.4',
+180 silly addNameRange     '0.2.6',
+180 silly addNameRange     '0.2.7',
+180 silly addNameRange     '0.2.8',
+180 silly addNameRange     '0.3.0',
+180 silly addNameRange     '0.3.1',
+180 silly addNameRange     '0.3.2',
+180 silly addNameRange     '0.3.4',
+180 silly addNameRange     '0.3.5',
+180 silly addNameRange     '0.3.6',
+180 silly addNameRange     '0.3.7',
+180 silly addNameRange     '0.4.0',
+180 silly addNameRange     '0.4.1',
+180 silly addNameRange     '0.4.2',
+180 silly addNameRange     '0.4.3',
+180 silly addNameRange     '0.4.4',
+180 silly addNameRange     '0.4.5',
+180 silly addNameRange     '0.5.1',
+180 silly addNameRange     '0.5.2',
+180 silly addNameRange     '0.5.3',
+180 silly addNameRange     '0.5.4',
+180 silly addNameRange     '0.5.5',
+180 silly addNameRange     '0.5.6',
+180 silly addNameRange     '0.6.0',
+180 silly addNameRange     '0.6.1',
+180 silly addNameRange     '0.6.2',
+180 silly addNameRange     '0.7.0',
+180 silly addNameRange     '0.7.1',
+180 silly addNameRange     '0.7.2',
+180 silly addNameRange     '0.7.3',
+180 silly addNameRange     '0.7.4',
+180 silly addNameRange     '0.8.0',
+180 silly addNameRange     '0.8.1',
+180 silly addNameRange     '0.9.0-beta1',
+180 silly addNameRange     '0.9.0',
+180 silly addNameRange     '0.9.1',
+180 silly addNameRange     '1.0.0',
+180 silly addNameRange     '1.0.1',
+180 silly addNameRange     '1.0.2',
+180 silly addNameRange     '1.0.3',
+180 silly addNameRange     '1.1.0',
+180 silly addNameRange     '1.1.1',
+180 silly addNameRange     '1.1.2',
+180 silly addNameRange     '1.2.0',
+180 silly addNameRange     '1.2.1',
+180 silly addNameRange     '1.2.2',
+180 silly addNameRange     '1.3.0',
+180 silly addNameRange     '1.3.1',
+180 silly addNameRange     '1.3.2',
+180 silly addNameRange     '1.3.3',
+180 silly addNameRange     '1.3.4',
+180 silly addNameRange     '1.4.0',
+180 silly addNameRange     '1.4.1',
+180 silly addNameRange     '1.4.2',
+180 silly addNameRange     '1.4.3',
+180 silly addNameRange     '1.4.4',
+180 silly addNameRange     '1.4.5',
+180 silly addNameRange     '1.5.0',
+180 silly addNameRange     '1.5.1',
+180 silly addNameRange     '1.5.2',
+180 silly addNameRange     '1.5.3',
+180 silly addNameRange     '1.5.4',
+180 silly addNameRange     '1.6.0',
+180 silly addNameRange     '1.6.1',
+180 silly addNameRange     '1.6.2',
+180 silly addNameRange     '1.6.3',
+180 silly addNameRange     '1.6.4',
+180 silly addNameRange     '1.6.5',
+180 silly addNameRange     '1.6.6',
+180 silly addNameRange     '1.6.7',
+180 silly addNameRange     '1.7.0',
+180 silly addNameRange     '1.7.1',
+180 silly addNameRange     '1.7.2',
+180 silly addNameRange     '1.7.3',
+180 silly addNameRange     '1.7.4',
+180 silly addNameRange     '1.7.5',
+180 silly addNameRange     '1.7.6',
+180 silly addNameRange     '1.7.7',
+180 silly addNameRange     '1.7.8',
+180 silly addNameRange     '1.7.9',
+180 silly addNameRange     '1.7.10',
+180 silly addNameRange     '1.7.12',
+180 silly addNameRange     '1.7.13',
+180 silly addNameRange     '1.7.14',
+180 silly addNameRange     '1.7.15',
+180 silly addNameRange     '1.7.16',
+180 silly addNameRange     '1.7.17',
+180 silly addNameRange     '1.7.18',
+180 silly addNameRange     '1.7.19',
+180 silly addNameRange     '1.7.20',
+180 silly addNameRange     '1.8.0',
+180 silly addNameRange     '1.8.1',
+180 silly addNameRange     '1.8.2',
+180 silly addNameRange     '1.8.3',
+180 silly addNameRange     '1.8.4',
+180 silly addNameRange     '1.8.5',
+180 silly addNameRange     '2.0.0',
+180 silly addNameRange     '2.0.1',
+180 silly addNameRange     '2.0.2',
+180 silly addNameRange     '2.0.3',
+180 silly addNameRange     '2.0.4',
+180 silly addNameRange     '2.1.0',
+180 silly addNameRange     '2.1.1',
+180 silly addNameRange     '2.1.2',
+180 silly addNameRange     '2.1.3',
+180 silly addNameRange     '2.2.0',
+180 silly addNameRange     '2.2.1',
+180 silly addNameRange     '2.2.2' ] ]
+181 verbose addNamed brunch@2.1.3
+182 silly addNamed semver.valid 2.1.3
+183 silly addNamed semver.validRange 2.1.3
+184 silly cache afterAdd javascript-brunch@1.8.0
+185 verbose afterAdd /Users/tlong/.npm/javascript-brunch/1.8.0/package/package.json not in flight; writing
+186 silly cache afterAdd brunch@2.1.3
+187 verbose afterAdd /Users/tlong/.npm/brunch/2.1.3/package/package.json not in flight; writing
+188 verbose afterAdd /Users/tlong/.npm/javascript-brunch/1.8.0/package/package.json written
+189 verbose afterAdd /Users/tlong/.npm/brunch/2.1.3/package/package.json written
+190 verbose stack Error: ENOENT, open '/Users/tlong/source/phoenix_example/example_app/deps/phoenix'
+190 verbose stack     at Error (native)
+191 verbose cwd /Users/tlong/source/phoenix_example/example_app
+192 error Darwin 15.3.0
+193 error argv "/Users/tlong/.nvm/versions/node/v0.12.0/bin/node" "/Users/tlong/.nvm/versions/node/v0.12.0/bin/npm" "install"
+194 error node v0.12.0
+195 error npm  v2.5.1
+196 error path /Users/tlong/source/phoenix_example/example_app/deps/phoenix
+197 error code ENOENT
+198 error errno -2
+199 error enoent ENOENT, open '/Users/tlong/source/phoenix_example/example_app/deps/phoenix'
+199 error enoent This is most likely not a problem with npm itself
+199 error enoent and is related to npm not being able to find a file.
+200 verbose exit [ -2, true ]
