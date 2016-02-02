@@ -6,7 +6,13 @@
 import {Socket} from "phoenix"
 
 let socket = new Socket("/socket", {params: {token: window.userToken}})
+class App {
+  static init() {
+    console.log("Is this thing on?")
+  }
+}
 
+$(() => App.init())
 // When you connect, you'll often need to authenticate the client.
 // For example, imagine you have an authentication plug, `MyAuth`,
 // which authenticates the session and assigns a `:current_user`.
